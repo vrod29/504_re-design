@@ -1,0 +1,11 @@
+.jumbotron {
+  background: grey;
+  height: 500px;
+}
+#bears:hover, #raiders:hover, #southwest:hover, #alamo:hover{
+  border: 1px solid grey;
+}
+#bears, #raiders, #southwest, #alamo {
+  margin-top: 85px;
+  margin-left: 20px;
+}
