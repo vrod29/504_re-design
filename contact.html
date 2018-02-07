@@ -3,51 +3,19 @@
 
 <head>
   <meta charset="utf-8">
-  <title>NEW PROJECT</title>
+  <title>Contact Us</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="Footer-with-social-icons.css" />
-  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 </head>
 
-
-
-<style>
-  input[type=text],
-  select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-</style>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand navbar-info bg-dark">
     <a class="navbar-brand mx-4" href="index.html">
     <img src="img/504_sports.png" width="150px" height="100px"/>
@@ -83,83 +51,67 @@
     </div>
   </nav>
 
+  <!-- Top Section -->
+  <section class="heading contact text-center mt-3">
+    <h3>Contact Us</h3>
+    <hr>
+  </section>
 
 
-
-
-
-  <div class="container">
-    <div class="col text-center">
-    </div>
+  <section class="container">
     <div class="row">
-      <div class="col text-center">
-        <h2>
-                    Contact Us
-                </h2>
-        <h4>
-                        1234 Bleeker St McAllen Tx
-                    </h4>
+      <div class="col-md-8">
+        <div class="form-area">
+          <form role="form">
+            <br style="clear:both">
+            <h5 style="margin-bottom: 10px;">Please leave us a message</h5>
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+            </div>
+            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </div>
-
-
-
-  <div class="container">
-    <div class="row">
-      <div id="text" class="col-8">
-        <div class="row">
-          <div class="col-6">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="First Name..">
-          </div>
-          <div class="col-6">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+      <div class="col-md-4">
+        <div class="contact-details">
+          <br style="clear:both">
+          <h5 style="margin-bottom: 10px;">Contact Details</h5>
+          <hr>
+          <h6>504 Sports</h6>
+          <h6>4709 Hemlock Lane</h6>
+          <h6>Mcallen, Tx 78501</h6>
+          <br>
+          <div class="icons">
+            <p><i class="fas fa-phone-square"></i> 956-451-1320</p>
+            <p><i class="fas fa-mobile"></i> 956-739-1346</p>
+            <p><i class="far fa-envelope"></i> admin@504sports.com</p>
           </div>
         </div>
-        <label for="sname">Phone Number</label>
-        <input type="text" id="sname" name="PhoneNumber" placeholder="Phone Number..">
-        <label for="pname">Email</label>
-        <input type="text" id="pname" name="Email" placeholder="Email">
-        <label for="hname">Message</label> <br />
-        <textarea type="text" id="hname" name="Message" placeholder="Message"> </textarea>
-        <input type="submit" value="Submit">
-      </div>
-
-
-      <div class="col-4">
-        <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:26.3%">
-          <div class="w3-container w3-dark-grey">
-            <h3>Menu</h3>
-          </div>
-
-          <p>
-            Hi thank you for choosing 502 Sports! We supply the best sports updates around the Rio Grande Valley. You can follow us on the social media accounts below! Make sure to check out our daily posts and contact us for any information you need!
-          </p>
-          <a href="#" class="w3-bar-item w3-button w3-red">Social Media</a>
-          <a href="#" class="w3-bar-item w3-button">Twitter <span class="w3-tag w3-red w3-right w3-margin-right"></span></a>
-          <a href="#" class="w3-bar-item w3-button">Instagram</a>
-          <a href="#" class="w3-bar-item w3-button">Facebook</a>
-
-          <div class="w3-panel w3-blue-grey w3-display-container">
-            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-blue-grey w3-display-topright">&times;</span>
-            <p>Home</p>
-          </div>
-
-        </div>
-
-        <div style="margin-left:50%">
-
-          <div class="w3-container">
-            <h2>Sidebar</h2>
-            <p>Put any element inside the sidebar.</p>
-          </div>
-
+        <br>
+        <div id="map">
+          <img src="http://maps.google.com/maps/api/staticmap?center=26.2304079,-98.2058973&zoom=16&size=400x200&maptype=roadmap&sensor=false&language=&markers=color:gray|label:none|26.2304079,-98.2058973" title="801 e. Fern mcallen, tx78501 || Powered by MapsEasy.com" width="400" height="200" style="background:#ffffff;padding:10px;border:1px solid #CECECE;">
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+
+
+
+
+
 
   <div class="content">
   </div>
