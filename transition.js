@@ -1,5 +1,5 @@
 
-var timer = 400000;
+var timer = 4000;
 
 var i = 0;
 var max = $('.movingImage').length;
