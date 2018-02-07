@@ -1,31 +1,95 @@
-
-
-h4{
+h4 {
     border-bottom: 3px groove black;
 }
- .jumbotron {
-  background: #6b6b6b;
-  height: 500px;
-  position: relative;
 
+#DenzelBorder {
+    border-bottom: 3px groove black;
+    border-top: 3px groove black;
 }
-#bears:hover, #raiders:hover, #southwest:hover, #alamo:hover{
-  border: 1px solid #6b6b6b;
+
+#DenzelPic {
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+#KevinPic {
+    height: auto;
+    padding-top: 15px;
+}
+
+#football1 {
+    color: brown;
+}
+
+#Twitter {
+    color: aqua;
+}
+
+#Instagram {
+    color: black;
+}
+
+#Facebook {
+    color: Navy;
+}
+
+#Reddit {
+    color: red;
+}
+
+#football2 {
+    color: brown;
+}
+
+#pic {
+    padding-left: 110px;
+}
+
+#Paragraph1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#Paragraph2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#heading {
+    font-family: 'Shrikhand', cursive;
+}
+
+#ThankYou {
+    padding-left: 10px;
+}
+
+#hname {
+    width: 100%;
+    padding-left: 5px;
+}
+
+.jumbotron {
+    background: #6b6b6b;
+    height: 500px;
+    position: relative;
+}
+
+#bears:hover, #raiders:hover, #southwest:hover, #alamo:hover {
+    border: 1px solid #6b6b6b;
+}
+
 #bears, #raiders, #southwest, #alamo {
-  margin-top: 85px;
-  margin-left: 40px;
-
+    margin-top: 85px;
+    margin-left: 40px;
 }
+
 #jumbrow {
-  height: 0;
+    height: 0;
 }
 
-
-#particles-js canvas{
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-   top: 0;
- }
+#particles-js canvas {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}

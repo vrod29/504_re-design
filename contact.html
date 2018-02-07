@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>NEW PROJECT</title>
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
@@ -43,9 +44,9 @@
 </style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<body>
+
+<body id="body">
 
     <nav class="navbar navbar-expand navbar-info bg-dark">
         <a class="navbar-brand" href="index.html">
@@ -59,8 +60,7 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="aboutUs.html">About Us <span class="sr-only">(current)</span></a>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">              Blog
-            </a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Blog</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="blogLJ.html">La Joya ISD</a>
                             <a class="dropdown-item" href="blogMISSION.html">Mission ISD</a>
@@ -119,9 +119,9 @@
                 <label for="sname">Phone Number</label>
                 <input type="text" id="sname" name="PhoneNumber" placeholder="Phone Number..">
                 <label for="pname">Email</label>
-                <input type="text" id="pname" name="Email" placeholder="Email">
+                <input type="text" id="pname" name="Email" placeholder="Email..">
                 <label for="hname">Message</label> <br />
-                <textarea type="text" id="hname" name="Message" placeholder="Message"> </textarea>
+                <textarea  type="text" id="hname" name="Message" placeholder=" Message.."></textarea>
                 <input type="submit" value="Submit">
             </div>
 
@@ -132,7 +132,7 @@
                         <h3>Menu</h3>
                     </div>
 
-                    <p>
+                    <p id="ThankYou">
                         Hi thank you for choosing 502 Sports! We supply the best sports updates around the Rio Grande Valley. You can follow us on the social media accounts below! Make sure to check out our daily posts and contact us for any information you need!
                     </p>
                     <a href="#" class="w3-bar-item w3-button w3-red">Social Media</a>
@@ -144,7 +144,7 @@
                         <span onclick="this.parentElement.style.display='none'" class="w3-button w3-blue-grey w3-display-topright">&times;</span>
                         <p>Home</p>
                     </div>
-
+                    <img id="pic" src="504-2.png" height= 130/>
                 </div>
 
                 <div style="margin-left:50%">
